@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+</head>
+<body>
+<script>
+    var res = prompt("Значение оператора: [+],[-],[*],[/]");
+    var a = prompt("Первое число");
+    var b = prompt("Второе число");
+
+    if (res === '+'){
+        alert(+a + +b +" - сумма");
+    } else if (res === '-'){
+        alert(+a - +b +' - разность');
+    } else if (res === '*'){
+        alert( a * b +' - произведение');
+    } else if (res === '/' ){
+        if (+b === 0){
+            alert ("ERROR");
+        } else{
+            alert(a / b + ' - деление');
+        }
+    } else{
+        alert("Ошибка");
+    }
+</script>
+</body>
+</html>
