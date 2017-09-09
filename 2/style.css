@@ -120,7 +120,7 @@ html, body {
 .features .item{
     float: left;
     width: 290px;
-    margin: 0px 0 30px 35px;
+    margin: 0 0 30px 35px;
 }
 .features .item:first-child{
     margin-left: 0;
@@ -151,4 +151,8 @@ html, body {
     font-size: 14px;
     padding: 5px 20px;
     background: rgb(225,98,65);
+}
+.line{
+    background: url("images/bar.jpg") right no-repeat;
+    color: rgb(225,98,65);
 }
