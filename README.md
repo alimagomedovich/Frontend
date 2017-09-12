@@ -114,7 +114,7 @@ var footer = "{float:left;padding:0 0 10px;background:#eeaaa3}";
 Домашнее задание № 12
 
 На странице есть список, такого вида:
-<ul id="list">
+'<ul id="list">
     <li>Element 1</li>
     <li>Element 2</li>
     <li style="color: green">Element 3</li>
@@ -125,14 +125,14 @@ var footer = "{float:left;padding:0 0 10px;background:#eeaaa3}";
     <li style="color: green">Element 8</li>
     <li>Element 9</li>
     <li style="color: green">Element 10</li>
-</ul>
+</ul>'
  
 Задача:
 В каждый элемент списка зеленого цвета добавить тег SPAN, а если элемент черного цвета, добавить тег Р. Внутренний текст должен сохранится.
 Пример,
-<li style="color: green"><span>Element 10</span></li>
+'<li style="color: green"><span>Element 10</span></li>'
 или
-<li><p>Element 1</p></li>
+'<li><p>Element 1</p></li>'
 
 *
 
